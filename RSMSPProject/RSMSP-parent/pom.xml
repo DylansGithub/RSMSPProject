@@ -50,6 +50,8 @@
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
         <version>2021.0.0</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
       <!--配置Spring Cloud Dependecies 依赖   [BEGIN]-->
     </dependencies>
