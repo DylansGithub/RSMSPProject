@@ -83,6 +83,4 @@
         </dependency>
         <!--配置 MapStruct Processor 依赖     [END]-->
     </dependencies>
-
-
 </project>
