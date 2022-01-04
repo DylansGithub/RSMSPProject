@@ -14,12 +14,6 @@
     </parent>
     <!--配置 RSMSP parent 作为父级依赖      [END]-->
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-
     <dependencies>
         <!--配置 RSMSP commons 依赖     [BEGIN]-->
         <dependency>
@@ -28,6 +22,7 @@
             <version>${parent.version}</version>
         </dependency>
         <!--配置 RSMSP commons 依赖     [BEGIN]-->
+
         <!--配置 MySQL Connector/J 依赖   [BEGIN]-->
         <dependency>
             <groupId>mysql</groupId>
