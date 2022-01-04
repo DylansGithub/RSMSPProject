@@ -1,7 +1,6 @@
 package cn.kang.rsmsp.base.pojo.vo;
 
 import cn.kang.rsmsp.base.pojo.enums.ResponseCode;
-
 import java.io.Serializable;
 
 /**

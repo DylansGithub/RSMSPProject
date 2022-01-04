@@ -1,5 +1,6 @@
 package cn.kang.rsmsp.base.pojo.vo;
 
+
 import java.io.Serializable;
 import java.util.Date;
 
