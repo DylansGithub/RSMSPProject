@@ -15,8 +15,8 @@ import lombok.Data;
 public class ProTitle extends BaseEntity {
 	private static final long serialVersionUID = 7358521586526480077L;
 	private Long id;                        //主键
-	private Procategory category;           //所属类别
-	private ProRank rank;                   //所属等级
+	private String category;           //所属类别
+	private String rank;                   //所属等级
 	private String code;                    //编码
 	private String name;                    //名称
 }

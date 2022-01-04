@@ -15,8 +15,8 @@ import lombok.Data;
 public class Department extends BaseEntity {
 	private static final long serialVersionUID = -7326285385278712449L;
 	private Long id;                                      //主键
-	private Hospitial hospitial;                          //所在医院
-	private Department department;                        //上级部门
+	private String hospitial;                          //所在医院
+	private String department;                        //上级部门
 	private String code;                                  //部门编码
 	private String name;                                  //部门名称
 }

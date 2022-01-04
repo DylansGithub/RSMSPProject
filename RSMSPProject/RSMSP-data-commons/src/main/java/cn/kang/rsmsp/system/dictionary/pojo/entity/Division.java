@@ -15,7 +15,7 @@ import lombok.Data;
 public class Division extends BaseEntity {
 	private static final long serialVersionUID = 9128178348956974973L;
 	private Long id;                            //主键
-	private Division division;                  //上级区划
+	private String division;                  //上级区划
 	private String code;                        //编码
 	private String name;                        //名称
 }

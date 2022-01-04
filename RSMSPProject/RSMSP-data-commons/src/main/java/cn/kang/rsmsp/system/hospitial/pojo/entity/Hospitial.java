@@ -21,16 +21,16 @@ public class Hospitial extends BaseEntity {
 	private String authority;                   //上级主管机构名称
 	private String orgcode;                     //组织机构代码
 	private String charge;                      //机构负责人
-	private DataCode dataCode;                  //表示地址类别的代码
-	private Division provence;                  //所在省份
-	private Division city;                      //所在城市
-	private Division country;                   //所在区县
+	private String dataCode;                  //表示地址类别的代码
+	private String provence;                  //所在省份
+	private String city;                      //所在城市
+	private String country;                   //所在区县
 	private String town;                        //地址-乡（镇、街道办事处）
 	private String village;                     //地址-村（街、路等）
 	private String doorNot;                     //地址-门牌号码
-	private Division zipCode;                   //邮政编码
-	private Division divisionCode;              //行政区划代码
-	private DataCode telephoneCat;              //联系电话-类别
+	private String zipCode;                   //邮政编码
+	private String divisionCode;              //行政区划代码
+	private String telephoneCat;              //联系电话-类别
 	private String telephone;                   //联系电话-号码
 	private String email;                       //电子邮件地址
 }

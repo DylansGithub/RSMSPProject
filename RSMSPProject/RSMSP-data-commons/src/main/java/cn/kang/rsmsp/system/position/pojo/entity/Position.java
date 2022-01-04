@@ -20,5 +20,5 @@ public class Position extends BaseEntity {
 	private Long id;                                        //主键
 	private String code;                                   //编码
 	private String name;                                   //名称
-	private List<Admin> adminList;                        //该职务所对应的人员列表
+//	private List<Admin> adminList;                        //该职务所对应的人员列表
 }

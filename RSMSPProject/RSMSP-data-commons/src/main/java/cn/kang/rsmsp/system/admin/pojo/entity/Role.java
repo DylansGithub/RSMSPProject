@@ -19,5 +19,5 @@ public class Role extends BaseEntity {
 	private Long id;                            //主键
 	private String code;                        //角色编码
 	private String name;                        //角色名称
-	private List<Menu> menuList;                //角色所对应的功能菜单
+//	private List<Menu> menuList;                //角色所对应的功能菜单
 }
