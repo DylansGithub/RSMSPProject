@@ -1,8 +1,6 @@
 package cn.kang.rsmsp.system.hospitial.pojo.entity;
 
 import cn.kang.rsmsp.base.pojo.entity.BaseEntity;
-import cn.kang.rsmsp.system.dictionary.pojo.entity.DataCode;
-import cn.kang.rsmsp.system.dictionary.pojo.entity.Division;
 import lombok.Data;
 
 /**

@@ -27,6 +27,8 @@
     <druid-spring-boot-starter.version>1.2.8</druid-spring-boot-starter.version>
     <pagehelper-spring-boot-starter.version>1.4.1</pagehelper-spring-boot-starter.version>
     <mapstruct.version>1.4.2.Final</mapstruct.version>
+    <lombok.version>1.18.22</lombok.version>
+    <java-jwt.version>3.18.2</java-jwt.version>
   </properties>
 
   <dependencies>
@@ -90,7 +92,27 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
+          <!--
+            在使用lombok之后，此时在系统中存在Mapstuct和lombok两个功能，
+            其中Mapstruct会编译生车工转换代码，会调用pojo的get和set方法，而lombok则可以省略get和set方法，在编译时自动生成
+            就会导致MapStruct编译时找不到get和set方法
+            需要将两个插件进行结合使用
+          -->
           <version>3.8.0</version>
+          <configuration>
+            <annotationProcessorPaths>
+              <path>
+                <group>org.mapstruct</group>
+                <artifacted>mapstruct-processor</artifacted>
+                <version>${mapstruct.version}</version>
+              </path>
+              <path>
+                <group>org.projectlombok</group>
+                <artifacted>lombok</artifacted>
+                <version>${lombok.version}</version>
+              </path>
+            </annotationProcessorPaths>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>

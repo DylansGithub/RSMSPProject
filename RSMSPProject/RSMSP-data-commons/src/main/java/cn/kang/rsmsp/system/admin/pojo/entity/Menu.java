@@ -3,7 +3,6 @@ package cn.kang.rsmsp.system.admin.pojo.entity;
 import cn.kang.rsmsp.base.pojo.entity.BaseEntity;
 import lombok.Data;
 
-import java.util.List;
 
 /**
  * <b>智慧医疗信息平台 - 系统菜单功能实体信息 </b>

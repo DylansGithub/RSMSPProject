@@ -1,15 +1,8 @@
 package cn.kang.rsmsp.system.admin.pojo.entity;
 
 import cn.kang.rsmsp.base.pojo.entity.BaseEntity;
-import cn.kang.rsmsp.system.dictionary.pojo.entity.Education;
-import cn.kang.rsmsp.system.dictionary.pojo.entity.Identity;
-import cn.kang.rsmsp.system.hospitial.pojo.entity.Department;
-import cn.kang.rsmsp.system.position.pojo.entity.Position;
-import cn.kang.rsmsp.system.professional.pojo.entity.ProRank;
-import cn.kang.rsmsp.system.professional.pojo.entity.ProTitle;
 import lombok.Data;
 
-import java.util.List;
 
 /**
  * <b>智慧医疗信息平台 - 系统人员实体信息</b>

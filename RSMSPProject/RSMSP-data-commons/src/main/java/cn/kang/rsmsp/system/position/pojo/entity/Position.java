@@ -1,7 +1,6 @@
 package cn.kang.rsmsp.system.position.pojo.entity;
 
 import cn.kang.rsmsp.base.pojo.entity.BaseEntity;
-import cn.kang.rsmsp.system.admin.pojo.entity.Admin;
 import lombok.Data;
 
 import java.util.List;

@@ -24,6 +24,12 @@
       <artifactId>RSMSP-commons</artifactId>
       <version>${parent.version}</version>
     </dependency>
-    <!--配置 RSMSP Commons 依赖   [END]-->
+	  <dependency>
+		  <groupId>cn.kang.rsmsp</groupId>
+		  <artifactId>RSMSP-data-commons</artifactId>
+		  <version>1.0.0</version>
+		  <scope>compile</scope>
+	  </dependency>
+	  <!--配置 RSMSP Commons 依赖   [END]-->
   </dependencies>
 </project>

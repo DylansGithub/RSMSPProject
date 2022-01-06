@@ -22,7 +22,7 @@ import java.util.List;
 @Data
 public class AdminVO extends BaseVO {
 	private static final long serialVersionUID = 4573027278428240298L;
-	private Long id;                                  //主键
+	private String id;                                  //主键
 	private Long no;                                  //工号
 	private String name;                              //姓名
 	private String cellphone;                          //手机号码
